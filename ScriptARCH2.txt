@@ -96,7 +96,7 @@ sleep 2
 
 sudo docker exec -it javawatch bash -c "apt update && apt install libudev-dev -y"
 
-sudo docker exec -it javawatch bash -c "echo Abrindo Aplicação$(tput setaf 15)"
+sudo docker exec -it javawatch bash -c "echo Abrindo Aplicação...$(tput setaf 15)"
 
 sudo docker exec -it javawatch bash -c "java -jar SwiftLab.jar"
 
