@@ -61,7 +61,7 @@ else
         sleep 28
         echo "$(tput setaf 10)[Assistente - Stabillis]:$(tput setaf 7) Agora iremos criar um container no Docker para ter um backup dos dados!"
         echo "$(tput setaf 10)[Assistente - Stabillis]:$(tput setaf 7) Fazendo o download da imagem do banco de dados"
-        sudo docker pull mysql:5.7
+        sudo docker pull mysql:8
         sleep 20
         echo "$(tput setaf 10)[Assistente - Stabillis]:$(tput setaf 7) Verificando imagem"
         sudo docker images
